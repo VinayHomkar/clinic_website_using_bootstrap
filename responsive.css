@@ -5,8 +5,14 @@
     }
     
     /*Header*/
+    .header-wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
 
     /*Top Banner*/
+    .banner-wrapper .animated-img .aimg1{
+        left: -3.125rem;
+    }
 
     /*About*/
 
@@ -45,8 +51,17 @@
         padding: 1.875rem 1rem;
     }
     /*Header*/
+    .header-scrolled{
+        height: auto;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 0.9735rem;
+    }
 
     /*Top Banner*/
+    .banner-wrapper p{
+        width: 100%;
+    }
 
     /*About*/
 
@@ -75,7 +90,10 @@
 
 @media(max-width:360px){
     /*Banner*/
-
+    .banner-wrapper .top-right-sec .aimg1{
+        display: flex;
+        justify-items: end;
+        }
     /*About*/
 }
 

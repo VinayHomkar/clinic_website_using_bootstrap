@@ -19,6 +19,7 @@
     --text-white:#fff;
     --text-dark:#666;
     --text-light:#ddd;
+    --text-black:#222;
 
 }
 body{
@@ -122,7 +123,7 @@ p{
     box-shadow: 0.508rem 1.14rem 2.5rem 0 rgb(0 0 0/8%);
     padding:3.75rem 3.125rem 4.685rem;
     -webkit-transition:all, 4s;
-    transition: all, 4s;
+    transition: all, 1s;
     border: 0;
 }
 @keyframes bounce{
@@ -178,4 +179,75 @@ p{
     background-color: var(--bg-white);
     box-shadow: 0.5084rem 1.1419rem 2.5rem rgb(0 0 0/8%);
     transition: 0.3s ease-in-out;
+}
+
+/*Navbar Exit*/
+
+/*Banner Starts*/
+.banner-wrapper{
+    background-image: url(IMG/top-banner-img/Top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-wrapper p{
+    color: var(--text-white);
+    width: 80%;
+}
+.banner-wrapper .top-right-sec{
+    position: relative;
+    background-image: url(IMG/top-banner-img/top-right-bg.png);
+    background-repeat: no-repeat;
+    background-size: bottom;
+    background-position: contain;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.banner-wrapper .animate-img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 22;
+}
+.banner-wrapper .animate-img .aimg1{
+    left: -5.687rem;
+    position: absolute;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.banner-wrapper .animate-img .aimg2{
+    margin-left: 5.5rem;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-delay: 200ms;
+    animation-delay: 200ms;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.home .card:hover{
+    -webkit-transform: translateY(-0.625rem);
+    transform: translateY(-0.625rem);
+}
+.home .icon-box{
+    text-align: center;
+    margin: 0 auto 2.5rem;
 }
