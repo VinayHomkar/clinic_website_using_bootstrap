@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Roboto+Flex:opsz@8..144&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#004caa;
+    --secondary-color:#fc5185;
+    --bg-light-blue:#3672bc;
+    --bg-dark:#666;
+    --bg-white:#fff;
+
+    --primary-font: 'Changa', sans-serif;
+    --secondary-font:  'Roboto Flex', sans-serif;
+    --primary-text:#004caa;
+    --secondary-text:#fc5185;
+    --text-white:#fff;
+    --text-dark:#666;
+    --text-light:#ddd;
+
+}
+body{
+    font-family: var(--primary-font);
+    background-color: var(--bg-white);
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: .375rem;
+}
+::-webkit-scrollbar-track{
+    background: var(--bg-light-blue);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--secondary-color);
+}
+
+.wrapper{
+    padding: 6.25rem 0;
+}
+.main-btn{
+    display: inline-block;
+    border: 0.0625rem solid var(--bg-white);
+    color: var(--text-white);
+    text-align: center;
+    padding: 0.75rem 1.375rem;
+    font-size: 1rem;
+    background: transparent;
+    text-transform: capitalize;
+    border-radius: 0.1875rem;
+    transition: all 0.3s ease-in-out;
+}
+.main-btn:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-white);
+}
+.fill-btn{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-white);
+}
+.fill-btn:hover{
+    background-color: var(--bg-white);
+    border-color: var(--bg-white);
+    color: var(--text-dark);
+}
+h1{
+    font-size: 3.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+}
+h2{
+    font-size: 2.875rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+}
+h3{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--text-white);
+    font-family: var(--secondary-font);
+}
+h4{
+    font-size: 1.5rem;
+    font-weiht: 600;
+    line-height: 2.25rem;
+    color: var(--text-dark);
+    font-family: var(--secondary-font);
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.975rem;
+    font-family: var(--secondary-font);
+}
+h6{
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    color: var(--text-dark);
+    margin-bottom: 0.9375rem;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+}
+p{
+    font-size: 1rem;
+    color: var(text-gray);
+    line-height: 1.625rem;
+}
+.card{
+    border-radius: 0.625rem;
+    background-color: var(--bg-white);
+    box-shadow: 0.508rem 1.14rem 2.5rem 0 rgb(0 0 0/8%);
+    padding:3.75rem 3.125rem 4.685rem;
+    -webkit-transition:all, 4s;
+    transition: all, 4s;
+    border: 0;
+}
+@keyframes bounce{
+    0%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50%{
+        -webkit-transform: translateY(1.25rem);
+        transform:translateY(1.25rem);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*Navbar*/
+
+.header-wrapper .navbar{
+    padding: 0.9375rem 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.header-wrapper .navbar-toggler,
+.header-wrapper .navbar-toggler:focus{
+    border:0;
+    box-shadow: none;
+    color: var(--text-dark);
+    line-height: 2;
+}
+.header-wrapper .nav-item{
+    margin: 0 .625rem;
+}
+.header-wrapper .nav-item .nav-link{
+    font-size: 1.125rem;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--primary-text);
+    display: inline-block;
+}
+.header-wrapper .nav-item .nav-link:hover,
+.header-wrapper .nav-item .nav-link:focus,
+.header-wrapper .nav-item .nav-link .active{
+    color: var(--secondary-text);
+}
+.navbar .header-scrolled{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--bg-white);
+    box-shadow: 0.5084rem 1.1419rem 2.5rem rgb(0 0 0/8%);
+    transition: 0.3s ease-in-out;
+}
