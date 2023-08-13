@@ -23,6 +23,9 @@
     }
 
     /*Services*/
+    .services-wrapper .card{
+        padding: 1.875rem 0.875rem;
+    }
 }
 
 @media(max-width:991px){
@@ -103,9 +106,12 @@
    /* About*/
    .about-wrapper .about-animate{
     width: 9.875rem;
-}
+    }
 
     /*Services*/
+    .services-wrapper .card{
+        text-align: center;
+    }
 
     /*Blog*/
 
@@ -113,7 +119,7 @@
 }
 
 @media(max-width:360px){
-    /*Banner*/
+    
     
     /*About*/
     .about-wrapper .about-animate{
@@ -125,6 +131,11 @@
     .about-wrapper .about-clinic:nth-child(2),
     .about-wrapper .about-clinic:nth-child(4){
     padding-left: 0.625rem;
+    }
+
+    /*Services*/
+    .services-wrapper .icon-box{
+        margin-bottom: 0.9375rem;
     }
 }
 

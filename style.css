@@ -114,7 +114,7 @@ h6{
 }
 p{
     font-size: 1rem;
-    color: var(text-gray);
+    color: var(--text-dark);
     line-height: 1.625rem;
 }
 .card{
@@ -297,4 +297,28 @@ p{
     bottom: 0;
     -webkit-animation:bounce 3s linear infinite;;
     animation: bounce 3s linear infinite;
+}
+/*About Section Exit*/
+
+/*Services Section starts*/
+.services-wrapper{
+    background-color: var(--primary-color);
+}
+.services-wrapper .card{
+    background-color: transparent;
+    border: 0.0625rem solid var(--bg-light-blue);
+    box-shadow: none;
+    padding: 2.5rem;
+}
+.services-wrapper .card:hover{
+    background: var(--bg-light-blue);
+    border: transparent;
+    cursor: cell;
+}
+.services-wrapper .card h4,
+.services-wrapper .card p{
+    color: var(--text-white);
+}
+.services-wrapper .icon-box{
+    margin-bottom: 1.87rem
 }
