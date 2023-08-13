@@ -90,9 +90,9 @@ h3{
 }
 h4{
     font-size: 1.5rem;
-    font-weiht: 600;
+    font-weight: 600;
     line-height: 2.25rem;
-    color: var(--text-dark);
+    color: var(--text-black);
     font-family: var(--secondary-font);
 }
 h5{
@@ -213,7 +213,7 @@ p{
     z-index: 22;
 }
 .banner-wrapper .animate-img .aimg1{
-    left: -5.687rem;
+    left: -1.687rem;
     position: absolute;
     -webkit-animation-name: bounce;
     animation-name: bounce;
@@ -250,4 +250,51 @@ p{
 .home .icon-box{
     text-align: center;
     margin: 0 auto 2.5rem;
+}
+
+/*Banner Section Exit*/
+
+/*About Section Starts*/
+.about-wrapper h2{
+    color:var(--text-black);
+}
+.about-wrapper .card{
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-wrapper .about-clinic{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.about-wrapper .about-clinic:nth-child(1),
+.about-wrapper .about-clinic:nth-child(2){
+    margin-bottom: 2.185rem;
+}
+.about-wrapper .about-clinic:nth-child(2),
+.about-wrapper .about-clinic:nth-child(4){
+    padding-left: 3.75rem;
+}
+.about-wrapper .line-1,
+.about-wrapper .line-2{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.013rem;
+    height: 100%;
+    background: var(--bg-dark);
+}
+.about-wrapper .line-2{
+    width: 100%;
+    height: 0.0625rem;
+}
+.about-wrapper .about-animate{
+    position: absolute;
+    left: -2.585rem;
+    bottom: 0;
+    -webkit-animation:bounce 3s linear infinite;;
+    animation: bounce 3s linear infinite;
 }

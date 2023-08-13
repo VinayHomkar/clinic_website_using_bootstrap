@@ -15,6 +15,12 @@
     }
 
     /*About*/
+    .about-wrapper .card{
+        width: 100%;
+    }
+    .about-wrapper .about-animate{
+        left: 0.9735rem;
+    }
 
     /*Services*/
 }
@@ -65,6 +71,21 @@
 
     /*About*/
 
+    .about-wrapper .card{
+        width: 100%;
+    }
+    .about-wrapper .about-animate{
+        width: 9.875rem;
+    }
+    .about-wrapper .about-clinic:nth-child(1),
+    .about-wrapper .about-clinic:nth-child(2){
+    margin-bottom: 1.5625rem;
+    }
+    .about-wrapper .about-clinic:nth-child(2),
+    .about-wrapper .about-clinic:nth-child(4){
+    padding-left: 2.375rem;
+    }
+
     /*Services*/
 }
 @media(max-width :767px){
@@ -79,7 +100,10 @@
     h5{
         font-size: 1.25rem;
     }
-   
+   /* About*/
+   .about-wrapper .about-animate{
+    width: 9.875rem;
+}
 
     /*Services*/
 
@@ -90,10 +114,17 @@
 
 @media(max-width:360px){
     /*Banner*/
-    .banner-wrapper .top-right-sec .aimg1{
-        display: flex;
-        justify-items: end;
-        }
+    
     /*About*/
+    .about-wrapper .about-animate{
+        width: 6.875rem;
+    }
+    .about-wrapper .card{
+        padding: 1.125rem 0.3125rem;
+    }
+    .about-wrapper .about-clinic:nth-child(2),
+    .about-wrapper .about-clinic:nth-child(4){
+    padding-left: 0.625rem;
+    }
 }
 
