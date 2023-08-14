@@ -361,3 +361,15 @@ p{
 .team-wrapper .team-info .social-networks li i:hover{
     background-color: var(--secondary-color);
 }
+/*Team Sectionn Exit*/
+
+/*Gallery Section Starts*/
+.gallery-wrapper{
+    background-image: url(IMG/gallery/gallery-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery-wrapper img{
+    border-radius: 0.9375rem;
+}
