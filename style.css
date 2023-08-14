@@ -322,3 +322,42 @@ p{
 .services-wrapper .icon-box{
     margin-bottom: 1.87rem
 }
+
+/*Service Section Exit*/
+
+/*Team Section Starts*/
+.team-wrapper .card{
+    padding: 1.25rem;
+}
+.team-wrapper .card:hover{
+    -webkit-transform: translateY(-0.625rem);
+    transform: translateY(-0.625rem);
+}
+.team-wrapper .team-img{
+    margin: 0 auto;
+}
+.team-wrapper .team-info .social-networks{
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    padding: 0.625rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-wrapper .team-info .social-networks li i{
+    width: 1.5625rem;
+    height: 1.5625rem;
+    line-height: 1.5625rem;
+    display: block;
+    border-radius: 0.3125rem;
+    margin: 0 0.3125rem;
+    font-size: 0.75rem;
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.team-wrapper .team-info .social-networks li i:hover{
+    background-color: var(--secondary-color);
+}
