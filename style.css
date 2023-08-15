@@ -373,3 +373,9 @@ p{
 .gallery-wrapper img{
     border-radius: 0.9375rem;
 }
+/*Gallery Section Exit*/
+
+/*Testimonial Section Starts*/
+.testimonial-wrapper .card{
+    background-color: rgba(252, 81, 133, 0.05);
+}
