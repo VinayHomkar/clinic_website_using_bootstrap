@@ -379,3 +379,12 @@ p{
 .testimonial-wrapper .card{
     background-color: rgba(252, 81, 133, 0.05);
 }
+/*Testimonial Section Exit*/
+
+/*Appointment Section Starts*/
+.appointment-wrapper{
+    background-image: url(IMG/appointmnet-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
