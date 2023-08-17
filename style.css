@@ -388,3 +388,10 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/*Appointment Section Exit*/
+
+/*Blog Section Starts*/
+.blog-wrapper .blog-content{
+    background-color: var(--bg-light-blue);
+    padding: 2.5rem;
+}
