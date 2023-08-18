@@ -119,6 +119,9 @@
     /*Blog*/
 
     /*Footer*/
+    .footer-wrapper>div{
+        padding: 0 1.875rem;
+    }
 }
 
 @media(max-width:360px){
